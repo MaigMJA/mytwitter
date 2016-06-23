@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>Twitti</title>
+  <!-- ref  :  https://twitter.com/ -->
+</head>
+
+<body>
+  <header>
+    <div id="topinfo">
+      <ul>
+        <li>
+          <img src="images/favicon.png">
+          <span><a href="https://twitter.com/">Accueil</a></li>
+        <li><a href="https://about.twitter.com/">À propos</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <p>Langue :</p>
+      <p>français</p>
+      <button class="dropbtn"> </button>
+      <div class="dropdown-content">
+        <a href="?lang=id" data-lang-code="id" title="Indonésien" class="js-language-link js-tooltip" role="menuitem">Bahasa Indonesia</a>
+        <a href="?lang=msa" data-lang-code="msa" class="js-language-link js-tooltip" role="menuitem" data-original-title="Malais">Bahasa Melayu</a>
+        <a href="?lang=cs" data-lang-code="cs" title="Tchèque" class="js-language-link js-tooltip" role="menuitem">Čeština</a>
+        <a href="?lang=da" data-lang-code="da" class="js-language-link js-tooltip" role="menuitem" data-original-title="Danois">Dansk</a>
+        <a href="?lang=de" data-lang-code="de" title="Allemand" class="js-language-link js-tooltip" role="menuitem">Deutsch</a>
+        <a href="?lang=en" data-lang-code="en" class="js-language-link js-tooltip" role="menuitem" data-original-title="Anglais">English</a>
+        <a href="?lang=en-gb" data-lang-code="en-gb" title="Anglais britannique" class="js-language-link js-tooltip" role="menuitem">English UK</a>
+        <a href="?lang=es" data-lang-code="es" class="js-language-link js-tooltip" role="menuitem" data-original-title="Espagnol">Español</a>
+        <a href="?lang=fil" data-lang-code="fil" title="Filipino" class="js-language-link js-tooltip" role="menuitem">Filipino</a>
+        <a href="?lang=it" data-lang-code="it" class="js-language-link js-tooltip" role="menuitem" data-original-title="Italien">Italiano</a>
+        <a href="?lang=hu" data-lang-code="hu" title="Hongrois" class="js-language-link js-tooltip" role="menuitem">Magyar</a>
+        <a href="?lang=nl" data-lang-code="nl" class="js-language-link js-tooltip" role="menuitem" data-original-title="Néerlandais">Nederlands</a>
+        <a href="?lang=no" data-lang-code="no" title="Norvégien" class="js-language-link js-tooltip" role="menuitem">Norsk</a>
+        <a href="?lang=pl" data-lang-code="pl" class="js-language-link js-tooltip" role="menuitem" data-original-title="Polonais">Polski</a>
+        <a href="?lang=pt" data-lang-code="pt" title="Portugais" class="js-language-link js-tooltip" role="menuitem">Português</a>
+        <a href="?lang=ro" data-lang-code="ro" class="js-language-link js-tooltip" role="menuitem" data-original-title="Roumain">Română</a>
+        <a href="?lang=fi" data-lang-code="fi" title="Finnois" class="js-language-link js-tooltip" role="menuitem">Suomi</a>
+        <a href="?lang=sv" data-lang-code="sv" class="js-language-link js-tooltip" role="menuitem" data-original-title="Suédois">Svenska</a>
+        <a href="?lang=vi" data-lang-code="vi" title="Vietnamien" class="js-language-link js-tooltip" role="menuitem">Tiếng Việt</a>
+        <a href="?lang=tr" data-lang-code="tr" class="js-language-link js-tooltip" role="menuitem" data-original-title="Turc">Türkçe</a>
+        <a href="?lang=el" data-lang-code="el" title="Grec" class="js-language-link js-tooltip" role="menuitem">Ελληνικά</a>
+        <a href="?lang=ru" data-lang-code="ru" title="Russe" class="js-language-link js-tooltip" role="menuitem">Русский</a>
+        <a href="?lang=uk" data-lang-code="uk" title="Ukrainien" class="js-language-link js-tooltip" role="menuitem">Українська мова</a>
+        <a href="?lang=he" data-lang-code="he" title="Hébreu" class="js-language-link js-tooltip" role="menuitem">עִבְרִית</a>
+        <a href="?lang=ar" data-lang-code="ar" title="Arabe" class="js-language-link js-tooltip" role="menuitem">العربية</a>
+        <a href="?lang=fa" data-lang-code="fa" title="Persan" class="js-language-link js-tooltip" role="menuitem">فارسی</a>
+        <a href="?lang=mr" data-lang-code="mr" title="Marathe" class="js-language-link js-tooltip" role="menuitem">मराठी</a>
+        <a href="?lang=hi" data-lang-code="hi" title="Hindi" class="js-language-link js-tooltip" role="menuitem">हिन्दी</a>
+        <a href="?lang=ko" data-lang-code="ko" title="Coréen" class="js-language-link js-tooltip" role="menuitem">한국어</a>
+        <a href="?lang=ja" data-lang-code="ja" title="Japonais" class="js-language-link js-tooltip" role="menuitem">日本語</a>
+        <a href="?lang=zh-cn" data-lang-code="zh-cn" title="Chinois simplifié" class="js-language-link js-tooltip" role="menuitem">简体中文</a>
+        <a href="?lang=zh-tw" data-lang-code="zh-tw" title="Chinois traditionnel" class="js-language-link js-tooltip" role="menuitem">繁體中文</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="containt">
+    <section>
+      <h1>Bienvenue à Twitti !</h1>
+      <p>Connectez-vous à vos amis — et d'autres personnes fascinantes. Recevez des mises à jour instantanées sur les choses qui vous intéressent. Et regardez les événements se dérouler, en temps réel, sous tous les angles.</p>
+    </section>
+    <!-- <section>
+      <p> Großartiges Bürgerfest zum #Mauerfall mit über 300.000 Besuchern. Großer Dank an alle, die dazu beigetragen haben.
+        Tweet et photo par @RegSprecher 9:31 PM - 9 Nov 2014</p>
+    </section>
+bloc de droite
+    <section> -->
+    <section class="cright">
+    <div class="btop">
+      <form>
+        <input type="text" id="signin-email" class="text-input email-input" name="session[username_or_email]" autocomplete="username" placeholder="Téléphone, email ou identifiant">
+
+        <input type="password" id="pass" class="text-input flex-table-input" name="session[password]" placeholder="Mot de passe" autocomplete="current-password">
+
+        <button type="submit" id="connect">
+          Connexion
+        </button>
+        <div class="remember-forgot">
+          <label class="t1-label remember">
+            <span><input id="remember" type="checkbox" value="1" name="remember_me" checked="checked"> Se souvenir de moi</span>
+          </label>
+        </br>
+          <a class="forgot" href="/account/begin_password_reset">Mot de passe oublié ?</a>
+        </div>
+
+        <input type="hidden" name="return_to_ssl" value="true">
+
+        <input type="hidden" name="scribe_log">
+        <input type="hidden" name="redirect_after_login" value="/?lang=fr">
+        <input type="hidden" value="a9ad4e6a560b7f3be44c7614c67a2445db3b3448" name="authenticity_token">
+      </form>
+    </div>
+
+    <div class="bdown">
+      <div class="front-signup js-front-signup">
+        <h3>
+          <strong>Nouveau sur Twitti ?</strong> Inscrivez-vous</h3>
+
+        <form action="https://twitter.com/signup" class="t1-form signup" id="frontpage-signup-form" method="post">
+
+          <div class="field">
+            <input type="text" class="text-input" autocomplete="off" name="user[name]" maxlength="20" placeholder="Nom complet">
+          </div>
+          <div class="field">
+            <input type="text" class="text-input email-input" autocomplete="off" name="user[email]" placeholder="Adresse email">
+          </div>
+          <div class="field">
+            <input type="password" class="text-input" name="user[user_password]" placeholder="Mot de passe">
+          </div>
+
+          <input type="hidden" value="" name="context">
+          <input type="hidden" value="a9ad4e6a560b7f3be44c7614c67a2445db3b3448" name="authenticity_token">
+          <button id="inscript" type="submit" class="btn signup-btn u-floatRight">
+            S'inscrire sur Twitti
+          </button>
+        </form>
+      </div>
+    </div>
+    </section>
+
+  </div>
+
+
+  <footer>
+    <ul>
+      <li><a href="#">À propos</a> ·</li>
+      <li><a href="//support.twitter.com">Aide</a> ·</li>
+      <li><a href="https://blog.twitter.com/france">Blog</a> ·</span>
+      </li>
+      <li><a href="#">État du service</a> ·</li>
+      <li><a href="https://about.twitter.com/careers">Offres d'emploi</a> ·</li>
+      <li><a href="/tos">Conditions</a></li>
+      <li><a href="/privacy">Confidentialité</a> ·</li>
+      <li><a href="#">Cookies</a> .</li>
+      <li><a href="//support.twitter.com/articles/20170451">Informations sur la publicité</a> ·</li>
+      <li><a href="#">Marque</a>
+        <span class="dot divider"> ·</li>
+      <li><a href="#">Publicité</a> ·</li>
+      <li><a href="#">Professionnels</a> ·</li>
+      <li><a href="#">Médias</a> ·</li>
+      <li><a href="//maignan.marc@gmail.com">Gros Minet Développeur</a> ·</li>
+      <li><a href="/i/directory/profiles">Annuaire</a> ·</li>
+      <li>© 2016 Twitty</li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
